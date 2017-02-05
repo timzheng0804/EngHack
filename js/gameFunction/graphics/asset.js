@@ -108,14 +108,14 @@ var Asset = function() {
         this.spr_enemy_walk[1][7] = new Sprite(img, 30.4 * 15, 54 * 7.7, 46, 40);
         this.spr_enemy_walk[1][5] = new Sprite(img, 33.6 * 15, 54 * 7.7, 46, 40);
 
-        this.spr_enemy_walk[0][2] = new Sprite(img, 24.2 * 15, 54 * 8.5, 45, 40);
-        this.spr_enemy_walk[0][3] = new Sprite(img, 27.2 * 15, 54 * 8.5, 45, 40);
-        this.spr_enemy_walk[0][4] = new Sprite(img, 30.2 * 15, 54 * 8.5, 45, 40);
-        this.spr_enemy_walk[0][1] = new Sprite(img, 33.8 * 15, 54 * 8.5, 45, 40);
-        this.spr_enemy_walk[0][5] = new Sprite(img, 24.2 * 15, 54 * 9.3, 45, 40);
-        this.spr_enemy_walk[0][7] = new Sprite(img, 27.2 * 15, 54 * 9.3, 45, 40);
-        this.spr_enemy_walk[0][0] = new Sprite(img, 30.2 * 15, 54 * 9.3, 45, 40);
-        this.spr_enemy_walk[0][6] = new Sprite(img, 33.4 * 15, 54 * 9.3, 45, 40);
+        this.spr_enemy_walk[0][2] = new Sprite(img, 24.2 * 15, 54 * 8.5, 46, 40);
+        this.spr_enemy_walk[0][3] = new Sprite(img, 27.2 * 15, 54 * 8.5, 46, 40);
+        this.spr_enemy_walk[0][4] = new Sprite(img, 30.2 * 15, 54 * 8.5, 46, 40);
+        this.spr_enemy_walk[0][1] = new Sprite(img, 33.8 * 15, 54 * 8.5, 46, 40);
+        this.spr_enemy_walk[0][5] = new Sprite(img, 24.2 * 15, 54 * 9.3, 46, 40);
+        this.spr_enemy_walk[0][7] = new Sprite(img, 27.2 * 15, 54 * 9.3, 46, 40);
+        this.spr_enemy_walk[0][0] = new Sprite(img, 30.2 * 15, 54 * 9.3, 46, 40);
+        this.spr_enemy_walk[0][6] = new Sprite(img, 33.4 * 15, 54 * 9.3, 46, 40);
 
         this.spr_player_attack[0] = new Array(4);
         this.spr_player_attack[1] = new Array(4);
@@ -139,10 +139,10 @@ var Asset = function() {
         this.spr_player_attack[3][2] = new Sprite(img, 95, 360, 50, 60);
         this.spr_player_attack[3][3] = new Sprite(img, 48, 420, 48, 60);
 
-        this.spr_Bullet[0] = new Sprite(img, 0, 56 * 4, 45, 40);
-        this.spr_Bullet[2] = new Sprite(img, 3 * 15, 56 * 4, 45, 40);
-        this.spr_Bullet[1] = new Sprite(img, 0, 51.8 * 5, 45, 40);
-        this.spr_Bullet[3] = new Sprite(img, 3 * 15, 51.8 * 5, 45, 40);
+        this.spr_Bullet[0] = new Sprite(img, 0, 56 * 4, 45, 38);
+        this.spr_Bullet[2] = new Sprite(img, 3 * 15, 56 * 4, 45, 38);
+        this.spr_Bullet[1] = new Sprite(img, 0, 51.8 * 5, 45, 38);
+        this.spr_Bullet[3] = new Sprite(img, 3 * 15, 51.8 * 5, 45, 38);
 
     }
 }
